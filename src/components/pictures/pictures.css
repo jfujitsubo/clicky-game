@@ -1,19 +1,18 @@
-.pictures {
-    background: grey;
-    height: 100px;
-    width: 100px;
+.picture {
+    height: 300px;
+    width: 200px;
     text-align: left;
     position: relative;
 }
 
-.pictures > .img-container {
+.picture > .img-container {
     height: 100%;
     overflow: hidden;
     text-align: center;
 }
 
-.pictures > .img-container > img {
-    width: 80%
+.picture > .img-container > img {
+    width: 60%;
 }
 
 
